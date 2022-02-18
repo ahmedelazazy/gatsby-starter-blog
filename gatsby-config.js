@@ -128,5 +128,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        // The "domain" is what you chose as an identifier and what comes up in the URL:
+        // https://plausible.io/<domain>
+        domain: `gatsbystarterblog20835.gatsbyjs.io`,
+      },
+    },
   ],
 }
